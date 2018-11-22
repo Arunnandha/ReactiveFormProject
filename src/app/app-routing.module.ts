@@ -4,7 +4,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  {path: 'lgoin', component: LoginComponent},
+  {path: '', component: LoginComponent},
   {path: 'reg', component: RegistrationComponent}
 ];
 
